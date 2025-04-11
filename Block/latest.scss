@@ -1,0 +1,212 @@
+%CustomBlocksize{
+    width: 1300px;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    padding-left: 25px;
+} 
+
+%CustomBottonsize{
+    width: 178px;
+    height: 51px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #118DA8;
+}
+
+
+
+
+%CustBlockTextsize{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-rows: repeat(5, fr);
+    gap: 30px;
+    margin-left: 30px;
+}
+
+%CustBlockText1textsize{
+    border-radius: 5px;
+    text-align: center;
+    width: 103px;
+    height: 27px;
+    color: white;
+    background-color: #191919;
+}
+
+%CustBlockText2textsize{
+    width: 80px;
+    height: 27px;
+    color: #118DA8;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+%CustBlockText3textsize{
+    width: 701px;
+    height: 141px;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+%CustBlockText4textsize{
+    width: 780px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+}
+
+
+
+
+.latest{
+    width: 1440px;
+    height: 2088px;
+}
+
+.latest_1block{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 99px;
+    margin-left: 50px;
+}
+
+.latest_1block_text{
+    width: 413px;
+    height: 80px;
+    color: white;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.latest_1block_button{
+    @extend %CustomBottonsize;
+    margin-left: 800px;
+}
+
+.latest_1block_button:hover{
+    cursor: pointer;
+    background-color: #0c6275;
+}
+
+.latest_2block{
+    margin-left: 50px;
+}
+
+
+.latest_2block{
+    width: 1300px;
+    height: 1689px;
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-rows: repeat(3, fr);
+}
+
+.latest_2block_one{
+    @extend %CustomBlocksize;
+}
+
+.latest_2block_two{
+    @extend %CustomBlocksize;
+}
+
+.latest_2block_three{
+    @extend %CustomBlocksize;
+}
+
+
+.latest_2block_one_text{
+    @extend %CustBlockTextsize;
+}
+
+.latest_2block_two_text{
+    @extend %CustBlockTextsize;
+}
+
+.latest_2block_three_text{
+    @extend %CustBlockTextsize;
+}
+
+.latest_2block_one_button{
+    @extend %CustomBottonsize;
+}
+
+.latest_2block_two_button{
+    @extend %CustomBottonsize;
+}
+
+.latest_2block_three_button{
+    @extend %CustomBottonsize;
+}
+
+.latest_2block_one_button:hover{
+    cursor: pointer;
+    background-color: #0c6275;
+}
+
+.latest_2block_two_button:hover{
+    cursor: pointer;
+    background-color: #0c6275;
+}
+
+
+.latest_2block_three_button:hover{
+cursor: pointer;
+    background-color: #0c6275;
+}
+
+
+
+.latest_2block_one_1text{
+    @extend %CustBlockText1textsize;
+}
+
+.latest_2block_one_2text{
+    @extend %CustBlockText2textsize;
+}
+
+.latest_2block_one_3text{
+    @extend %CustBlockText3textsize;
+}
+
+.latest_2block_one_4text{
+    @extend %CustBlockText4textsize;
+}
+
+.latest_2block_two_1text{
+    @extend %CustBlockText1textsize;
+}
+
+.latest_2block_two_2text{
+    @extend %CustBlockText2textsize;
+}
+
+.latest_2block_two_3text{
+    @extend %CustBlockText3textsize;
+}
+
+.latest_2block_two_4text{
+    @extend %CustBlockText4textsize;
+}
+
+.latest_2block_three_1text{
+    @extend %CustBlockText1textsize;
+}
+
+.latest_2block_three_2text{
+    @extend %CustBlockText2textsize;
+}
+
+.latest_2block_three_3text{
+    @extend %CustBlockText3textsize;
+}
+
+.latest_2block_three_4text{
+    @extend %CustBlockText4textsize;
+}

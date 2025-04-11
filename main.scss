@@ -4,3 +4,50 @@
 @import "./Block/jacob.scss";
 @import "./Block/reviews.scss";
 @import "./Block/information.scss";
+
+::selection{
+    background-color: white ;
+    color: black;
+
+}
+
+
+body{
+    background-color: #191919;
+}
+
+html, body {        
+    margin: 0;  
+    padding: 0;         
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('font/DMSans-Regular.ttf') format('ttf');
+    font-style: normal;
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.forpc {
+    display: block;
+}
+
+.formobile {
+    display: none;
+}           
+
+
+@media (max-width: 376px){
+    .forpc {
+        display: none;
+    }
+    
+    .formobile {
+        display: block;     
+    }
+}   

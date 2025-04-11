@@ -1,0 +1,134 @@
+.information{
+    width: 100vw;
+    height: 417px;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+}
+
+.information_logo{
+    width: 224px;
+    height: 46px;
+    margin-left: 50px;
+    margin-top: 58px;
+}
+
+.information_text_inf{
+    display: flex;
+    margin-top: 58px;
+}
+
+.information_text{
+    width: 42.01vw;
+    height: 15.90vw;
+}
+
+.information_social{
+    margin-top: 58px;
+    margin-left: 5.42vw;
+}
+
+.information_social_img{
+    width: 14.40vw;
+    height: 2.09vw;
+}
+
+.information_text_inf_firsttab{
+    color: white;
+    margin-left: 13.38vw;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_firsttab_1text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_firsttab_2text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_firsttab_3text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_firsttab_4text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_lasttab_1text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_lasttab_2text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_lasttab_3text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+.information_text_inf_lasttab_4text:hover{
+    cursor: pointer;
+    color: #0c6275;
+}
+
+
+.information_text_inf_lasttab{
+    color: white;
+    margin-left: 6.38vw;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_lasttab_mainword_mini{
+    margin-right: 10px;
+}
+
+
+@media (max-width: 376px){
+    .informationn_text{
+        margin-left: 30px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .informationn{
+        width: 375px;
+        height: 300px;
+        margin-top: 100px;
+        background-color: #2c2c2c;
+        display: flex;
+    }
+
+    .informationn_social_text{
+        width: 200px;
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .informationn_social_img{
+        width: 200px;
+        height: 20px
+    }
+
+    .informationn_logo{
+        width: 100px;
+        height: 40px;
+        margin-left: 8.06vw;
+        margin-top: 30px;
+    }
+}

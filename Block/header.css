@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 119px;
+}
+
+.header_logo {
+  margin-left: 50px;
+  width: 160px;
+  height: 33px;
+}
+
+.header_navigation {
+  margin-left: 800px;
+}
+
+.header_novigation_link {
+  padding-left: 35px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.header_novigation_link:hover {
+  color: #118DA8;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */

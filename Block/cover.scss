@@ -1,0 +1,40 @@
+.cover{
+    width: 1440px;
+    height: 913px;
+}
+
+.cover_all{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 874px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.cover_all_1bloc{
+    width: 650px;
+    height: 873px;
+    border-radius: 20px;
+}
+
+.cover_all_2bloc{
+    margin-left: 50px;
+    margin-top: 132px;
+    width: 530px;
+    height: 611px;
+
+}
+
+.cover_all_2bloc_text{
+    color: white;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.cover_all_2bloc_social{
+    width: 245px;
+    height: 32px;
+    margin-top: 150px;
+}

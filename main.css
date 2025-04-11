@@ -1,1 +1,359 @@
-/*# sourceMappingURL=main.css.map */
+.header {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 119px;
+}
+
+.header_logo {
+  margin-left: 50px;
+  width: 160px;
+  height: 33px;
+}
+
+.header_navigation {
+  margin-left: 800px;
+}
+
+.header_novigation_link {
+  padding-left: 35px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.header_novigation_link:hover {
+  color: #118DA8;
+  cursor: pointer;
+}
+
+.cover {
+  width: 1440px;
+  height: 913px;
+}
+
+.cover_all {
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  height: 874px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.cover_all_1bloc {
+  width: 650px;
+  height: 873px;
+  border-radius: 20px;
+}
+
+.cover_all_2bloc {
+  margin-left: 50px;
+  margin-top: 132px;
+  width: 530px;
+  height: 611px;
+}
+
+.cover_all_2bloc_text {
+  color: white;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+.cover_all_2bloc_social {
+  width: 245px;
+  height: 32px;
+  margin-top: 150px;
+}
+
+.latest_2block_three, .latest_2block_two, .latest_2block_one {
+  width: 1300px;
+  height: 545px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: black;
+  padding-left: 25px;
+}
+
+.latest_2block_three_button, .latest_2block_two_button, .latest_2block_one_button, .latest_1block_button {
+  width: 178px;
+  height: 51px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #118DA8;
+}
+
+.latest_2block_three_text, .latest_2block_two_text, .latest_2block_one_text {
+  display: grid;
+  grid-template-columns: repeat(1, fr);
+  grid-template-rows: repeat(5, fr);
+  gap: 30px;
+  margin-left: 30px;
+}
+
+.latest_2block_three_1text, .latest_2block_two_1text, .latest_2block_one_1text {
+  border-radius: 5px;
+  text-align: center;
+  width: 103px;
+  height: 27px;
+  color: white;
+  background-color: #191919;
+}
+
+.latest_2block_three_2text, .latest_2block_two_2text, .latest_2block_one_2text {
+  width: 80px;
+  height: 27px;
+  color: #118DA8;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.latest_2block_three_3text, .latest_2block_two_3text, .latest_2block_one_3text {
+  width: 701px;
+  height: 141px;
+  font-weight: 400;
+  font-size: 64px;
+  color: white;
+}
+
+.latest_2block_three_4text, .latest_2block_two_4text, .latest_2block_one_4text {
+  width: 780px;
+  height: 99px;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+}
+
+.latest {
+  width: 1440px;
+  height: 2088px;
+}
+
+.latest_1block {
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  height: 99px;
+  margin-left: 50px;
+}
+
+.latest_1block_text {
+  width: 413px;
+  height: 80px;
+  color: white;
+  font-weight: 400;
+  font-size: 44px;
+}
+
+.latest_1block_button {
+  margin-left: 800px;
+}
+
+.latest_1block_button:hover {
+  cursor: pointer;
+  background-color: #0c6275;
+}
+
+.latest_2block {
+  margin-left: 50px;
+}
+
+.latest_2block {
+  width: 1300px;
+  height: 1689px;
+  display: grid;
+  grid-template-columns: repeat(1, fr);
+  grid-template-rows: repeat(3, fr);
+}
+
+.latest_2block_one_button:hover {
+  cursor: pointer;
+  background-color: #0c6275;
+}
+
+.latest_2block_two_button:hover {
+  cursor: pointer;
+  background-color: #0c6275;
+}
+
+.latest_2block_three_button:hover {
+  cursor: pointer;
+  background-color: #0c6275;
+}
+
+.information {
+  width: 100vw;
+  height: 417px;
+  margin-top: 100px;
+  background-color: black;
+  display: flex;
+}
+
+.information_logo {
+  width: 224px;
+  height: 46px;
+  margin-left: 50px;
+  margin-top: 58px;
+}
+
+.information_text_inf {
+  display: flex;
+  margin-top: 58px;
+}
+
+.information_text {
+  width: 42.01vw;
+  height: 15.9vw;
+}
+
+.information_social {
+  margin-top: 58px;
+  margin-left: 5.42vw;
+}
+
+.information_social_img {
+  width: 14.4vw;
+  height: 2.09vw;
+}
+
+.information_text_inf_firsttab {
+  color: white;
+  margin-left: 13.38vw;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_firsttab_1text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_firsttab_2text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_firsttab_3text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_firsttab_4text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_lasttab_1text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_lasttab_2text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_lasttab_3text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_lasttab_4text:hover {
+  cursor: pointer;
+  color: #0c6275;
+}
+
+.information_text_inf_lasttab {
+  color: white;
+  margin-left: 6.38vw;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.information_text_inf_lasttab_mainword_mini {
+  margin-right: 10px;
+}
+
+@media (max-width: 376px) {
+  .informationn_text {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .informationn {
+    width: 375px;
+    height: 300px;
+    margin-top: 100px;
+    background-color: #2c2c2c;
+    display: flex;
+  }
+  .informationn_social_text {
+    width: 200px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .informationn_social_img {
+    width: 200px;
+    height: 20px;
+  }
+  .informationn_logo {
+    width: 100px;
+    height: 40px;
+    margin-left: 8.06vw;
+    margin-top: 30px;
+  }
+}
+::-moz-selection {
+  background-color: white;
+  color: black;
+}
+::selection {
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: #191919;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("font/DMSans-Regular.ttf") format("ttf");
+  font-style: normal;
+}
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+.forpc {
+  display: block;
+}
+
+.formobile {
+  display: none;
+}
+
+@media (max-width: 376px) {
+  .forpc {
+    display: none;
+  }
+  .formobile {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
