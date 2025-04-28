@@ -1,0 +1,95 @@
+.accordion {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.accordion-item {
+    background-color: #000;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.accordion-header .title {
+    font-size: 18px;
+}
+
+.accordion-header .toggle-icon::before {
+    content: '+';
+    font-size: 24px;
+}
+
+.accordion-item.active .toggle-icon::before {
+    content: '×';
+}
+
+.accordion-content {
+    display: none;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 14px;
+    animation: slideDown 0.3s ease forwards;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1440px) {
+    .accordion {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        max-width: 90%;
+    }
+
+    .accordion-header .title {
+        font-size: 16px;
+    }
+
+    .accordion-content {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .accordion {
+        max-width: 100%;
+    }
+
+    .accordion-header .title {
+        font-size: 14px;
+    }
+
+    .accordion-content {
+        font-size: 10px;
+    }
+}

@@ -4,6 +4,8 @@
 @import "./Block/jacob.scss";
 @import "./Block/reviews.scss";
 @import "./Block/information.scss";
+@import "./Block/modalwindow.scss";
+@import "./Block/accardeon.scss";   
 
 ::selection{
     background-color: white ;
@@ -16,9 +18,9 @@ body{
     background-color: #191919;
 }
 
-html, body {        
-    margin: 0;  
-    padding: 0;         
+html, body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     overflow-x: hidden;
 }
@@ -32,6 +34,7 @@ html, body {
 html {
     font-family: 'DM Sans', sans-serif;
 }
+
 
 .forpc {
     display: block;

@@ -106,7 +106,7 @@
     width: 375px;
     height: 300px;
     margin-top: 100px;
-    background-color: #2c2c2c;
+    background-color: black;
     display: flex;
   }
   .informationn_social_text {
@@ -116,12 +116,12 @@
     font-weight: bold;
   }
   .informationn_social_img {
-    width: 200px;
+    width: 180px;
     height: 20px;
   }
   .informationn_logo {
     width: 100px;
-    height: 40px;
+    height: 25px;
     margin-left: 8.06vw;
     margin-top: 30px;
   }
