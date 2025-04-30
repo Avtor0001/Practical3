@@ -1,40 +1,67 @@
 .cover{
-    width: 1440px;
-    height: 913px;
+    width: 100vw;
+    height: 63.40vw;
 }
 
 .cover_all{
     display: flex;
     align-items: center;
-    width: 1300px;
-    height: 874px;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-bottom: 10px;
+    width: 90.28vw;
+    height: 60.69vw;
+    margin-top: 2.78vw;
+    margin-left: 3.47vw;
+    margin-bottom: 0.69vw;
 }
 
 .cover_all_1bloc{
-    width: 650px;
-    height: 873px;
+    width: 45.14vw;
+    height: 60.63vw;
     border-radius: 20px;
 }
 
 .cover_all_2bloc{
-    margin-left: 50px;
-    margin-top: 132px;
-    width: 530px;
-    height: 611px;
+    margin-left: 3.47vw;
+    margin-top: 9.17vw;
+    width: 36.81vw;
+    height: 42.40vw;
 
 }
 
 .cover_all_2bloc_text{
     color: white;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 4.86vw;
 }
 
 .cover_all_2bloc_social{
-    width: 245px;
-    height: 32px;
-    margin-top: 150px;
+    width: 17.02vw;
+    height: 2.22vw;
+    margin-top: 10.42vw;
+}
+
+
+
+
+
+@media (max-width: 375px) {
+    .cover_all_2bloc{
+        margin-left: 3.47vw;
+        margin-top: 9.17vw;
+        width: 150px;
+        height: 42.40vw;
+    
+    }
+
+    .cover_all_2bloc_text{
+        width: 150px;
+        color: white;
+        font-weight: 400;
+        font-size: 23px;
+    }
+
+    .cover_all_2bloc_social{
+        width: 100px;
+        height: 15px;
+        margin-top: 10.42vw;
+    }
 }

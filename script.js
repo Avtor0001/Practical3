@@ -113,7 +113,3 @@ tabButtons.forEach(button => {
 		document.getElementById(button.getAttribute('data-tab')).classList.add('active');
 	});
 });
-
-
-
-
